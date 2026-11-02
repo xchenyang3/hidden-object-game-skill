@@ -1,0 +1,6 @@
+interface:
+  display_name: "儿童绘本找找图与找不同"
+  short_description: "生成儿童绘本隐藏物品与两图找不同，调整难度、核对目标并制作答案图"
+  default_prompt: "请用 $children-picture-puzzles 制作一张儿童游戏书隐藏物品线稿，更换为我指定的场景和物品，并附对应答案图。"
+policy:
+  allow_implicit_invocation: true
